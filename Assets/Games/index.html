@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<style>
+			body {
+			  margin-left:10%;
+			  margin-right: 10%;
+			  font-family: "Verdana";
+			}
+			
+			
+			.tournament
+			  {
+				width:50%;
+				float:right;
+				margin-left:2%;
+			  }
+			
+			.mobileImage
+				{
+					display: none;
+				}
+			
+			.header{
+				text-align:center;
+			}
+
+			.topnav {
+			  overflow: hidden;
+			  background-color: #2c5caa;
+			}
+
+			.topnav a {
+			  float: left;
+			  display: block;
+			  color: #f2f2f2;
+			  text-align: center;
+			  padding: 14px 16px;
+			  text-decoration: none;
+			  font-size: 17px;
+			}
+
+			.topnav a:hover {
+			  background-color: #fff;
+			  color: black;
+			}
+
+			.topnav a.active {
+			  background-color: #2c5caa;
+			  color: white;
+			}
+
+			.topnav .icon {
+			  display: none;
+			}
+			
+			.content {
+				display: block;
+				margin-right: 2.5%;
+				float:left;
+				width:66.66%;
+			
+			
+			}
+			
+			.side {
+				display: block;
+				float:right;
+				width:30%;
+				border-left-style:solid;
+				border-left-color:#2c5caa;
+				
+			}
+			
+			.side a {
+				text-decoration:none;
+				color: black;
+				
+			}
+			
+			.footer {
+				display:block;
+				float: right;
+				margin-top: 5%;
+				width:100%;
+				text-color:white;
+				background-color:#2c5caa;
+			}
+			
+			#videoBG
+			{
+				width:100%;
+			}
+
+			@media screen and (max-width: 960px) {
+			  .topnav a:not(:first-child) {display: none;}
+			  .topnav a.icon {
+				float: right;
+				display: block;
+			  }
+			  
+				body{
+				margin:0%
+				}
+				
+				#videoBG{
+					display:none;
+				}
+				
+				.mobileImage
+				{
+					display: block;
+					text-align:center;
+					width:100%;
+				}
+			  
+			  .content {
+				display: block;
+				float:center;
+				width:100%;
+				border-bottom-style:solid;
+				border-bottom-color:#2c5caa;
+				padding-bottom:2.5%;
+			
+			}
+			
+			.tournament
+			  {
+				width: 100%;
+				height:auto;
+				margin-bottom: 5%;
+			  }
+			
+			
+			  
+			  .side {
+				display: block;
+				float:center;
+				margin-top:2.5%;
+				height: 100%;
+				width:100%;
+
+			}
+			  
+			}
+
+			@media screen and (max-width: 960px) {
+			  .topnav.responsive {position: relative;}
+			  .topnav.responsive .icon {
+				position: absolute;
+				right: 0;
+				top: 0;
+			  }
+			  .topnav.responsive a {
+				float: none;
+				display: block;
+				text-align: left;
+			  }
+			  
+			  
+			}
+		</style>
+	</head>
+	
+	<body
+	
+		<div class="header">
+			<img src="images/vrlogo.png" alt="Logo">
+		</div>
+		<div class="topnav" id="myTopnav" style="margin-bottom:1%;">
+		  <a href="index.html" class="active">HOME</a>
+		  <a href="experiences.html">EXPERIENCES</a>
+		  <a href="services.html">SERVICES</a>
+		  <a href="events.html">EVENTS</a>
+		  <a href="list.html">GAMES</a>
+		  <a href="about.html">ABOUT US</a>
+		  <a href="contact.html">CONTACT US</a>
+		  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars"></i>
+		  </a>
+		</div>
+		<div class="content">
+			<div class="footage">
+				<video id="videoBG" poster="storefront.JPG" style="border-bottom-color:#2c5caa;border-bottom-style:solid;"autoplay muted loop>
+					<source src="background.mp4" type="video/mp4">
+				</video>
+				<img src="images/mobile.jpg" alt="Logo" class="mobileImage">
+			</div>
+			
+			<div style="margin-bottom:5%;">
+				<a href="https://staging.ggchampions.com/#/event/season1"><img class="tournament" src="pics/tournament.jpeg"></a>
+			</div>
+			
+			<div>
+				<h1>WHAT IS THE VR CENTER?</h1>
+				<h2>THE VR CENTER OFFERS ONE OF THE MOST UNIQUE GAMING EXPERIENCES IN ROANOKE, VA.</h2>
+				<p>Established in 2016 THE VR CENTER was initially just an idea. But now you can schedule blocks of individual playtime or book Birthday Parties,Team Building Exercises, Social Events, etc. </p>
+				<p>The VR Center isa full functioning virtual reality arcade with all the major platforms including the HTC Vive, Oculus Rift, and Sony PlayStation VR. We have VR egg-shaped pods which includes roller coasters, adventure rides, and first person shooters. Our 10'x10' rooms are dedicated areas where you can immerse yourself into games like SuperHot, Beat Saber, and Job Simulator.</p>
+				<p>Player packages are available for anyone who wants to try it all. Come by The VR Center and experience virtual reality today or attend our monthly eSports events.</p>
+			</div>
+		</div>
+		<div class="side">
+			<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fthevrcenter&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=true&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+					
+			<div class="asideContent">
+					<h3>FREQUENTLY ASKED QUESTIONS</h3>
+					<br>
+					<b>
+					 <a href="experiences.html">HOW MUCH DOES ALL THIS COST?</a>
+					 <br><br>
+					  <a href="experiences.html">DO YOU HAVE ANYTHING OTHER THAN VR?</a>
+					  <br><br>
+					   <a href="services.html">DO YOU HOST PARTIES & EVENTS?</a>
+					   <br><br>
+					    <a href="services.html">DO YOU SELL VR EQUIPMENT?</a>
+						<br><br>
+						 <a href="experiences.html">DO YOU OFFER ANY MEMBERSHIPS?</a>
+					<br>
+					</b>
+				</div>
+		</div>
+		<div class="footer">
+			<div style="color:white;">
+				<h3>VR CENTER LLC</h3>
+				<p>www.thevrcenter.net</p>
+				<p>thevrcenterllc@gmail.com </p>
+				<p>540-400-0929</p>
+				<p>4802 Valley View Blvd NW, Roanoke, VA 24012</p>
+			</div>
+		</div>
+
+		<script>
+			function myFunction() {
+			  var x = document.getElementById("myTopnav");
+			  if (x.className === "topnav") {
+				x.className += " responsive";
+			  } else {
+				x.className = "topnav";
+			  }
+			}
+		</script>
+
+	</body>
+</html>
