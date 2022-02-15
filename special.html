@@ -61,36 +61,49 @@
       }
       </style>
 
-    <h1>This is our Special Page!</h1>
 
-    <div class="container-fluid">
-      <h1 style="background-color:gray;color:white;"><br>We are currently open with the following measures in place:</h1>
+      <main class="flex-shrink-0">
+        <div class="d-flex align-items-center">
+          <h1>This is our Special Page!</h1>
 
-      <p style="background-color:gray;color:white;"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Following all applicable guidelines set
-         forth by local officials and/or health departments.</p>
-      <p style="background-color:gray;color:white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. Encouraging everyone to follow the <strong>6 Foot
-      </strong> social distancing guidelines.</p>
-      <p style="background-color:gray;color:white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. Allowing only <strong>50</strong> customers 
-         at a time in the store (Phase 2 VA)</p>
-      <p style="background-color:gray;color:white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4. Placing hand sanitizer units throughout the 
-         store.</p>
-      <p style="background-color:gray;color:white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5. Increasing the frequency of cleaning and sanitizing
-          all high-traffic common areas with an enhanced focus on all touch points with <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-          CDC-recommended cleaning agents. </p>
+          <h1 style="background-color:gray;color:white;"><br>We are currently open with the following measures in place:</h1>
 
-      <p style="background-color:gray;color:white;"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <Strong>HOURS:</Strong></p>
-      <P style="background-color:gray;color:white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mon-Thur: 11AM - 8PM </P>
-      <P style="background-color:gray;color:white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fri & Sat: 11AM - 9PM </P>
-      <P style="background-color:gray;color:white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sunday: 12PM - 6PM </P>
+          <p style="background-color:gray;color:white;"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Following all applicable guidelines set
+             forth by local officials and/or health departments.</p>
+          <p style="background-color:gray;color:white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. Encouraging everyone to follow the <strong>6 Foot
+          </strong> social distancing guidelines.</p>
+          <p style="background-color:gray;color:white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. Allowing only <strong>50</strong> customers 
+             at a time in the store (Phase 2 VA)</p>
+          <p style="background-color:gray;color:white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4. Placing hand sanitizer units throughout the 
+             store.</p>
+          <p style="background-color:gray;color:white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5. Increasing the frequency of cleaning and sanitizing
+              all high-traffic common areas with an enhanced focus on all touch points with <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+              CDC-recommended cleaning agents. </p>
+
+          <p style="background-color:gray;color:white;"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <Strong>HOURS:</Strong></p>
+          <P style="background-color:gray;color:white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mon-Thur: 11AM - 8PM </P>
+          <P style="background-color:gray;color:white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fri & Sat: 11AM - 9PM </P>
+          <P style="background-color:gray;color:white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sunday: 12PM - 6PM </P>
+        </div>
+      </main>
+
+    <div id="footbar">
+      <footer class="fixed-bottom bg-dark d-flex flex-wrap justify-content-between align-items-center py-3">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+          </a>
+          <span class="text-muted">&copy; 2021 Company, Inc</span>
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+          <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+          <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+        </ul>
+      </footer>
     </div>
 
-    <div id="footbar"></div>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script type="text/javascript">
-      $(function(){
-        $("#footbar").load("footbar.html");
-      });
-    </script>
   </body>
 </html>
